@@ -23,12 +23,15 @@ already_available_file = 0
 
 # Check the URL Content is Downloadable or not
 def is_downloadable(url):
-    h = requests.head(url, allow_redirects=True)
-    header = h.headers
-    content_type = header.get('content-type')
-    if 'text' in content_type.lower():
-        return False
-    if 'html' in content_type.lower():
+    try:
+        h = requests.head(url, allow_redirects=True)
+        header = h.headers
+        content_type = header.get('content-type')
+        if 'text' in content_type.lower():
+            return False
+        if 'html' in content_type.lower():
+            return False
+     except Exception as e:
         return False
     return True
 
