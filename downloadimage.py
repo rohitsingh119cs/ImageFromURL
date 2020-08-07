@@ -12,6 +12,7 @@ from pathlib import Path
 urls_file = open('urls.txt', 'r')
 urls = urls_file.readlines()
 download_file_path = "download/"
+logfile = open("logs.txt", "a")
 
 
 # Variables for logs file
@@ -19,19 +20,22 @@ Total_url = 0
 Downloaded_Count = 0
 Not_Downloadable = 0
 already_available_file = 0
+Total_downloaded_size = 0
 
 
 # Check the URL Content is Downloadable or not
+
 def is_downloadable(url):
-    try:
-        h = requests.head(url, allow_redirects=True)
-        header = h.headers
-        content_type = header.get('content-type')
-        if 'text' in content_type.lower():
-            return False
-        if 'html' in content_type.lower():
-            return False
-     except Exception as e:
+    h = requests.head(url, allow_redirects=True)
+    header = h.headers
+    content_type = header.get('content-type')
+    content_size = header.get('Content-Length')
+    print("File Size", int(content_size)/1000, "kb")
+    global Total_downloaded_size
+    Total_downloaded_size +=int(content_size)
+    if 'text' in content_type.lower():
+        return False
+    if 'html' in content_type.lower():
         return False
     return True
 
@@ -59,13 +63,25 @@ for url in urls:
             print("Downloading ... File Name : ", filename)
             file = requests.get(url.strip(), allow_redirects=True)
             open(finale_file, 'wb').write(file.content)
-
             Downloaded_Count += 1
-
     else:
         Not_Downloadable += 1
+        logfile.write(url.strip())
+        logfile.write("\n")
 
+logfile.write("###############################################################################\n" +
+              "Total URLs To be Downloaded = "+str(Total_url)+" Links"+'\n' +
+              "Total Images Link Not Downloadable = "+str(Not_Downloadable)+" Files"+'\n' +
+              "Total New Images Downloaded = "+str(Downloaded_Count)+" Files"+'\n' +
+              "Images Already Available or Downloaded in Folder = "+str(already_available_file)+" Files"+'\n' +
+              "Total Downloaded Size = "+str(round(int(Total_downloaded_size)/1048576, 2)) + "Mb"+"\n" +
+              "###############################################################################")
+
+print("-------------------------------------------------------------------------------")
 print("Total Images URLs = ", Total_url)
-print("Total Images New Downloaded = ", Downloaded_Count)
-print("Total Images Not Downloadable = ", Not_Downloadable)
-print("Already Downloaded Files = ", already_available_file)
+print("Total Images Link Not Downloadable = ", Not_Downloadable)
+print("Total New Images Downloaded = ", Downloaded_Count)
+print("Downloaded Images Already Available in Folder = ", already_available_file)
+print("Downloaded Size = ", round(int(Total_downloaded_size)/1048576, 2), "Mb")
+print("-------------------------------------------------------------------------------")
+logfile.close()
