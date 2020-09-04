@@ -7,4 +7,4 @@ Put all the urls with newline seperator in urls.txt file and start the script wi
 ***python downloadimage.py***
 And rest the script will do work for you :)
 
-It will download all the images file inside the download folder which it automatically created on script start.
+It will download all the images file inside the download folder which automatically creates on script start.
