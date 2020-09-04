@@ -3,7 +3,7 @@ Python Code to Download Images from URLs
 
 # Working
 
-Put all the urls wiht newline seperator in urls.txt file and start the script with command like
+Put all the urls with newline seperator in urls.txt file and start the script with command like
 ***python downloadimage.py***
 And rest the script will do work for you :)
 
