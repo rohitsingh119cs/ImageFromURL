@@ -1,0 +1,13 @@
+###############################################################################
+Total URLs To be Downloaded = 4 Links
+Total Images Link Not Downloadable = 0 Files
+Total New Images Downloaded = 4 Files
+Images Already Available or Downloaded in Folder = 0 Files
+Total Downloaded Size = 1.73Mb
+##############################################################################################################################################################
+Total URLs To be Downloaded = 4 Links
+Total Images Link Not Downloadable = 0 Files
+Total New Images Downloaded = 0 Files
+Images Already Available or Downloaded in Folder = 4 Files
+Total Downloaded Size = 1.73Mb
+###############################################################################
