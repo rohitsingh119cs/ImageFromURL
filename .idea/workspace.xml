@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e02d7b-16dc-4ebc-a466-83e1948c4e38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Adulting-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Adulting-womens-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Adulting_black_Design_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Adulting_black_Design_image_bfab919c-02cd-4f17-ab48-02699909af65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Cozy-Cat-T-Shirt-mustard.design-i_age.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Ek-Maratha-lakh-Maratha-white-womens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Ek-maratha-lakh-maratha-Design-image_3f7913a8-8a06-4049-abb0-ba3effafe90d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Pawsitive-T-Shirt-mustard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Pawsitive-T-Shirt-white-design-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Pawsitive-T-Shirt-white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Spirit-Dog-T-Shirt-dark-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Spirit-Dog-T-Shirt-dark-grey-design-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Spirit-Dog-T-Shirt-dark-grey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/Wooferful-Dog-design-image_ff855615-d39e-45c1-8c4c-f70aac931180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/eww-people-cement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/haunt.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/Ek-Maratha-lakh-Maratha-cement-womens.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/Ek-Maratha-lakh-Maratha-cement.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/Ek-Maratha-lakh-Maratha-white-womens.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/download/Ek-Maratha-lakh-Maratha-white-womens.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/Ek-Maratha-lakh-Maratha-white.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/Ek-maratha-lakh-maratha-Design-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/Ek-maratha-lakh-maratha-Design-image_3f7913a8-8a06-4049-abb0-ba3effafe90d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/download/Ek-maratha-lakh-maratha-Design-image_3f7913a8-8a06-4049-abb0-ba3effafe90d.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/haunt_2a253799-b1c5-4615-a27e-43f487b6047b.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/i_ll-haunt-you-black-front-womens-dark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/i_ll-haunt-you-black-front-womens.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/baboon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/fruits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/frymire.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/downloadimage.py" beforeDir="false" afterPath="$PROJECT_DIR$/downloadimage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4fae7626-2d52-41c5-922c-f3dae6156d5a" />
+  </component>
   <component name="ProjectId" id="1b7oaUGVDgHWvwb18XZng7ePh0h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587992556565</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tested Script">
+      <created>1599305774828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599305774828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +152,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Tested Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested Script" />
   </component>
 </project>

@@ -1,13 +1,44 @@
+https://homepages.cae.wisc.edu/~ece533/images/baboon.png
+https://homepages.cae.wisc.edu/~ece533/images/airplane.png
+https://homepages.cae.wisc.edu/~ece533/images/fruits.png
+https://homepages.cae.wisc.edu/~ece533/images/frymire.png
 ###############################################################################
-Total URLs To be Downloaded = 4 Links
-Total Images Link Not Downloadable = 0 Files
-Total New Images Downloaded = 4 Files
-Images Already Available or Downloaded in Folder = 0 Files
-Total Downloaded Size = 1.73Mb
-##############################################################################################################################################################
-Total URLs To be Downloaded = 4 Links
-Total Images Link Not Downloadable = 0 Files
+Total URLs To be Downloaded = 20 Links
+Total Images Link Not Downloadable = 4 Files
 Total New Images Downloaded = 0 Files
-Images Already Available or Downloaded in Folder = 4 Files
-Total Downloaded Size = 1.73Mb
+Images Already Available or Downloaded in Folder = 16 Files
+Total Downloaded Size = 1.71Mb
+###############################################################################
+https://homepages.cae.wisc.edu/~ece533/images/airplane.png
+https://homepages.cae.wisc.edu/~ece533/images/baboon.png
+https://homepages.cae.wisc.edu/~ece533/images/fruits.png
+https://homepages.cae.wisc.edu/~ece533/images/frymire.png
+###############################################################################
+Total URLs To be Downloaded = 20 Links
+Total Images Link Not Downloadable = 4 Files
+Total New Images Downloaded = 0 Files
+Images Already Available or Downloaded in Folder = 16 Files
+Total Downloaded Size = 1.71Mb
+###############################################################################
+https://homepages.cae.wisc.edu/~ece533/images/baboon.png
+https://homepages.cae.wisc.edu/~ece533/images/airplane.png
+https://homepages.cae.wisc.edu/~ece533/images/frymire.png
+https://homepages.cae.wisc.edu/~ece533/images/fruits.png
+###############################################################################
+Total URLs To be Downloaded = 20 Links
+Total Images Link Not Downloadable = 4 Files
+Total New Images Downloaded = 0 Files
+Images Already Available or Downloaded in Folder = 16 Files
+Total Downloaded Size = 1.71Mb
+###############################################################################
+https://homepages.cae.wisc.edu/~ece533/images/baboon.png
+https://homepages.cae.wisc.edu/~ece533/images/airplane.png
+https://homepages.cae.wisc.edu/~ece533/images/fruits.png
+https://homepages.cae.wisc.edu/~ece533/images/frymire.png
+###############################################################################
+Total URLs To be Downloaded = 20 Links
+Total Images Link Not Downloadable = 4 Files
+Total New Images Downloaded = 0 Files
+Images Already Available or Downloaded in Folder = 16 Files
+Total Downloaded Size = 1.71Mb
 ###############################################################################
